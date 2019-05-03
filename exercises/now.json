@@ -2,10 +2,12 @@
   "version": 2,
   "builds": [
     {"src": "api/index.js", "use": "@now/node"},
-    {"src": "api/cats/index.js", "use": "@now/node" }
+    {"src": "api/cats/index.js", "use": "@now/node" },
+    {"src": "api/dogs/index.js", "use": "@now/node" }
   ],
   "routes": [
     {"src": "/api", "dest": "api/index.js" },
-    {"src": "/api/cats", "dest": "api/cats/index.js" }
+    {"src": "/api/cats", "dest": "api/cats/index.js" },
+    {"src": "/api/dogs", "dest": "api/dogs/index.js" }
   ]
 }

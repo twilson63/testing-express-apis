@@ -57,8 +57,9 @@ AUTH=Y2F0Om1lb3c=
 
 ## Exercise 4
 
-Rewire sqllite to mock relational db calls
+Use `rewire` to mock sqlite3 relational db calls
 
+* Review implementation in the `exercises` project
 
 
 
